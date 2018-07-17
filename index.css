@@ -67,6 +67,18 @@ label {
   background: rgba(255, 255, 255, 0.2);
   border: none;
 }
+  [type=Email], [type=Email]:focus {
+  padding: 1em;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+}
+  [type=Phone], [type=Phone]:focus {
+  padding: 1em;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+}
 
 .bottom  {
   border-top: 2px solid #92919D;

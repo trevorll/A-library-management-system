@@ -5,10 +5,10 @@ import re
 
 app=Flask(__name__)
 #app.config["SQLALCHEMY_DATABASE_URI"]='sqlite:///User_Login.sqlite3'
-app.config['MONGOALCHEMY_DATABASE'] = 'library'
-app.config['SECRET_KEY']='Je123'
+app.config['POSTGRESQL_DATABASE'] = 'http://127.0.0.1:61638/browser/'
+app.config['SECRET_KEY']='godwill63'
 
-db1=MongoAlchemy(app)
+db1=postgresql(app)
 
 class Book(db1.Document):
     name=db1.StringField()
